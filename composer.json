@@ -1,0 +1,20 @@
+{
+    "name": "gavg/wordpress_phpunit_harness",
+    "description": "A PHPUnit Extension and some traits to assist with Wordpress plugin PHPUnit testing",
+    "type": "library",
+    "require": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "GavG\\WordpressPhpUnitHarness\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "GavG",
+            "email": "gavg.apps@gmail.com"
+        }
+    ]
+}

@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace GavG\WordpressPhpUnitHarness;
 
+use GavG\WordpressPhpUnitHarness\Hooks\HookTestStart;
 use PHPUnit\Runner\Extension\Extension;
 use PHPUnit\Runner\Extension\Facade;
 use PHPUnit\Runner\Extension\ParameterCollection;
 use PHPUnit\TextUI\Configuration\Configuration;
-use VPT\Tests\Extensions\Hooks\HookTestStart;
 
 abstract class AbstractWpBoot implements Extension
 {

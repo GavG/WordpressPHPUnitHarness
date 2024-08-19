@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace GavG\WordpressPhpUnitHarness\Traits;
 
-use VPT\Structs\Http\Response;
+use GavG\WordpressPhpUnitHarness\Structs\Response;
 
 trait MakesWpAdminRequests
 {
